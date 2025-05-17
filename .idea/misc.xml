@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1975" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/cart_button_bg.xml" value="0.2285" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/carts.xml" value="0.1105" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/detail_page__cart.xml" value="0.122" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/detail_page_cart.xml" value="0.122" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/ic_account_settings.xml" value="0.135" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/ic_back_background.xml" value="0.1105" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.2835" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/ic_cart_background.xml" value="0.1105" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/ic_carts.xml" value="0.1105" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/ic_filtre_adobe_express.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/ic_recherche.xml" value="0.1" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/produit3_background.xml" value="0.113" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/drawable/search_bg.xml" value="0.2055" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/activity_maps.xml" value="0.1398148148148148" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/activity_product_adapter1.xml" value="0.1" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/activity_productdetails2.xml" value="0.264" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/activity_productsdetails.xml" value="0.2" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/activity_produitdetails3.xml" value="0.264" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/category_row_item.xml" value="0.264" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/image_menu.xml" value="0.1" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/product_row_item.xml" value="0.4" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/layout/products_row_item.xml" value="0.1" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/loicr/AndroidStudioProjects/OnlineProductsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16770833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

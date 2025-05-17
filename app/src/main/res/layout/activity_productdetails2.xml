@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Productsdetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="399dp"
+        android:layout_height="479dp"
+        android:background="@drawable/detail_page_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/ral_9001_blanc_creme"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Body"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/ral_9001_blanc_creme"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Lotion"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintStart_toEndOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="247dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="sans-serif-black"
+            android:text="African Mango Shower Gel"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/textView12"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textprix1"
+            android:layout_width="103dp"
+            android:layout_height="31dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="$25.00"
+            android:textColor="#42995C"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView11"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="360dp"
+            android:layout_height="137dp"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="2dp"
+            android:text="Notre gel douche vivifiant à la mangue est comme une dose quotidienne de soleil dans une bouteille, vous laissant revigoré pour la journée et votre peau fraîche et délicatement parfumée."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/textView12"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="32dp"
+            android:layout_height="17dp"
+            app:layout_constraintBottom_toBottomOf="@+id/button_add_cart"
+            app:layout_constraintStart_toStartOf="@+id/text1"
+            app:layout_constraintTop_toTopOf="@+id/button_add_cart"
+            app:srcCompat="@drawable/minuss" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="50dp"
+            android:layout_height="27dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintStart_toEndOf="@+id/imageView14"
+            app:layout_constraintTop_toTopOf="@+id/imageView14" />
+
+        <ImageView
+            android:id="@+id/imageView_plus"
+            android:layout_width="40dp"
+            android:layout_height="26dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView14"
+            app:layout_constraintStart_toEndOf="@+id/textView14"
+            app:layout_constraintTop_toTopOf="@+id/textView14"
+            app:srcCompat="@drawable/green_plus_icon_png_transparent_png_removebg_preview" />
+
+        <Button
+            android:id="@+id/button_add_cart"
+            android:layout_width="163dp"
+            android:layout_height="77dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/detail_page_cart"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+            android:fontFamily="sans-serif-medium"
+            android:padding="16dp"
+            android:paddingRight="16dp"
+            android:text="Add to cart"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageback"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vectorwhite" />
+
+    <ImageView
+        android:id="@+id/imageViewmenu"
+        android:layout_width="42dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/and_more_icon_16_prev_ui" />
+
+    <ImageView
+        android:id="@+id/imageView123"
+        android:layout_width="387dp"
+        android:layout_height="413dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:transitionName="image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prodd1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
